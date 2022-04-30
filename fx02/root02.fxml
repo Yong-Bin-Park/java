@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.HBox?>
+
+
+<HBox xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <AnchorPane prefHeight="361.0" prefWidth="311.0">
+         <children>
+            <Label fx:id="start" alignment="CENTER" layoutX="71.0" layoutY="64.0" prefHeight="59.0" prefWidth="144.0" text="시작합니다." />
+            <Label fx:id="n3" layoutX="220.0" layoutY="210.0" style="-fx-background-color: skyblue;" text="0" />
+            <Label fx:id="n2" layoutX="136.0" layoutY="210.0" style="-fx-background-color: skyblue;" text="0" />
+            <Label fx:id="n1" layoutX="50.0" layoutY="210.0" style="-fx-background-color: skyblue;" text="0" />
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>
